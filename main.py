@@ -3,7 +3,7 @@ import discord
 from decouple import config
 
 
-token = os.environ('TOKEN')
+token = os.environ['TOKEN']
 intents = discord.Intents.default()
 intents.members = True
 intents.presences = True
